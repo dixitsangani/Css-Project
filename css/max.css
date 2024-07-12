@@ -1,0 +1,43 @@
+/* XL */
+@media(max-width:1399px){
+    .container{
+        max-width: 1140px;
+    }
+}
+/* LG  */
+@media(max-width:1199px){
+    .container{
+        max-width: 960px;
+    }
+}
+/* MD  */
+@media(max-width:991px){
+    .container{
+        max-width: 760px;
+    }
+    .toggle{
+        display: block;
+    }
+    nav ul{
+        position: absolute;
+        top:100%;
+        left: 0;
+        flex-direction: column;
+        background-color: aqua;
+        padding: 30px 40px;
+        margin: 10px 5px;
+    }
+    
+}
+/* SM  */
+@media(max-width:768px){
+    .container{
+        max-width: 540px;
+    }
+}
+/* XS  */
+@media(max-width:575px){
+    .container{
+        max-width: 100%;
+    }
+}
